@@ -9,5 +9,5 @@
 # ../../Tools/codeql-home/codeql/codeql database create owasp-benchmark --language=java
 #../../Tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-extended.qls --format=sarifv2.1.0 --output=results/Benchmark_1.2-codeql_java-security-extended.sarif
 benchmark_version=$(scripts/getBenchmarkVersion.sh)
-../../Tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-and-quality.qls --format=sarifv2.1.0 --output=results/Benchmark_$benchmark_version-codeql_java-security-and-quality.sarif
+../../tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-and-quality.qls --format=sarifv2.1.0 --output=results/Benchmark_$benchmark_version-codeql_java-security-and-quality.sarif
 

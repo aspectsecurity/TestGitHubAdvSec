@@ -5,6 +5,7 @@
 .settings/
 
 data/out.csv
+owasp-benchmark/
 reports/
 target/
 testfiles/
